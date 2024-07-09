@@ -20,68 +20,6 @@ id = 0
 
 
 
-
-    
-
-
-# {
-#   "responseId": "7e709dfb-5f05-4aa3-a5be-2aa9cb272ec1-3e133d4f",
-#   "queryResult": {
-#     "queryText": "1 dosa 1 pizaa",
-#     "parameters": {
-#       "foot-item": [
-#         "Rava Dosa",
-#         "Pizza"
-#       ],
-#       "number": [
-#         1,
-#         1
-#       ]
-#     },
-#     "allRequiredParamsPresent": true,
-#     "fulfillmentText": "order taken anything else you would like to add?",
-#     "fulfillmentMessages": [
-#       {
-#         "text": {
-#           "text": [
-#             "order taken anything else you would like to add?"
-#           ]
-#         }
-#       }
-#     ],
-#     "outputContexts": [
-#       {
-#         "name": "projects/geko-chat-bot-eovp/agent/sessions/9a9e0453-6f8b-a066-5c19-bee115d3ac30/contexts/ongoing-order",
-#         "lifespanCount": 5,
-#         "parameters": {
-#           "foot-item.original": [
-#             "dosa",
-#             "pizaa"
-#           ],
-#           "number": [
-#             1,
-#             1
-#           ],
-#           "foot-item": [
-#             "Rava Dosa",
-#             "Pizza"
-#           ],
-#           "number.original": [
-#             "1",
-#             "1"
-#           ]
-#         }
-#       }
-#     ],
-#     "intent": {
-#       "name": "projects/geko-chat-bot-eovp/agent/intents/3448039e-997a-4b2b-b377-61c305f29b9c",
-#       "displayName": "order.add"
-#     },
-#     "intentDetectionConfidence": 0.82780683,
-#     "languageCode": "en"
-#   }
-# }
-
 @app.route("/" ,methods = ["GET", "POST"])
 def main():
     
